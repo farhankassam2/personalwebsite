@@ -1,0 +1,257 @@
+#images {
+  width: 40px;
+  height: 40px;
+  padding: 2%;
+}
+
+header {
+  background-color: green;
+  color: white;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+#center {
+  text-align: center;
+  float: center;
+}
+
+#username, #password, #buttons, #remember {
+  text-align: right;
+}
+
+.profile_picture {
+  width: 150px;
+  height: 150px;
+  padding: 1%;
+  background-color: grey;
+  border-radius: 50%;
+  position: static;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', serif;
+  }
+
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 50px;
+
+  }
+
+  header p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  aside {
+    background-color: white;
+    color: white;
+    width: 20%;
+    float: left;
+  }
+
+  aside ul li {
+    padding: 10%;
+  }
+
+  aside ul li a {
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Times New Roman', serif;
+  }
+
+  .container aside ul li a:hover {
+    color: blue;
+    display: block;
+  }
+
+  main {
+    background-color: white;
+    width: 72%;
+    float: right;
+}
+
+  footer {
+    background-color: black;
+  }
+
+  .login {
+    overflow: hidden;
+    background-color: green;
+    padding: 16px;
+    border: none;
+    float: right;
+    position: relative;
+  }
+
+
+  #technical_skills {
+    overflow: auto;
+    display: none;
+  }
+
+  #technical_projects {
+    display: none;
+  }
+
+  #work_experience {
+    display: none;
+  }
+  #community_involvement {
+    display: none;
+  }
+
+  #education, #extra_curriculars {
+    display: none;
+    position: absolute;
+  }
+
+  #languages, #tools, #additional {
+    width: calc(100%/3);
+    float: left;
+    font-size: 12px;
+  }
+
+  #right1, #right2 {
+    width = calc(100%/2);
+    float: right;
+  }
+
+  #left1, #left2 {
+    width = (100%/2);
+    float: left;
+  }
+
+#learning {
+  float: right;
+  margin-top: calc(7%);
+}
+.right {
+  float: right;
+  margin-top: -65px;
+
+}
+
+.right2{
+  float: right;
+  margin-right: -100%;
+  margin-top: -65px;
+
+}
+
+
+
+li {
+  font-size: 14px;
+}
+button {
+  font-size: 12px;
+  background-size: contain;
+  height: 55px;
+  cursor: pointer;
+  background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+}
+
+
+
+button:hover {
+  /*background-color: red;*/
+  /* Add a hover effect for buttons */
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+.side_btn {
+  background-color: darkblue;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+#first_div {
+  float: right;
+}
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: auto;
+    }
+}
+
+
+#animation::before {
+  content: "I am a Dreamer";
+  animation-name: animation;
+  font-size: 300%;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animation {
+
+    20%  {color: red;
+      content: "I am a Learner";}
+    40%  {color: blue;
+      content: "I am a Thinker";}
+    60% {color: pink;
+      content: "I am an Innovator";
+    }
+    80% {color: green;
+      content: "I am a Developer";}
+}
+
+form {
+    border: 3px none #f1f1f1;
+    float:right;
+    text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  position: inherit;
+}
