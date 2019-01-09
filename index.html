@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Open+Sans:400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="assets/basic-layout.css">
+  <link rel="stylesheet" href="styles.css">
+  <script type = "text/javascript" src="main.js"></script>
+  <php include "action_page.php"></php>
+
+
+  <title>Farhan Kassam's Digital Resume</title>
+</head>
+<body>
+  <header class="center">
+
+      <form action="action_page.php" id="contact" method="post">
+
+          <div class="login" style="background-color:green">
+
+             <div id = "username">
+             <label for="username"><b>Username</b><span class="required"></label>
+           <input type="text" placeholder="Enter Username" name="uname" id="uname" required/>*
+            <br><br>
+        </div>
+
+        <div id = "password">
+           <label for="password"><b>Password</b><span class="required"></label>
+           <input type="password" placeholder="Enter Password" name="psw" id="psw" required/>*
+          <br><br>
+        </div>
+
+      </form>
+
+        <div id = "buttons">
+           <button type="submit" class="login" onclick="on_click()">Submit</button>
+           <button type="button" class="cancelbtn">Cancel</button>
+         </div>
+         <div id="remember">
+         <input type="checkbox" checked="checked"> Remember me
+       </div>
+           <div class="container" style="background-color:#f1f1f1">
+           <span class="psw">Forgot <a href="https://google.com">password?</a></span>
+         </div>
+         </div>
+
+
+       <div id = "center">
+      <a href="https://kassamfarhan.getforge.io"> <img src = "assets/profile.jpg" alt="Farhan Kassam's Profile" class="profile_picture"></a>
+      <h1>Farhan Kassam</h1>
+    </div>
+  </header>
+
+
+<div class = "container">
+<aside>
+        <button type="button" class="side_btn" onclick="toggle('technical_skills')" > Technical Skills
+        </button>
+        <button type="button" class="side_btn" onclick="toggle('technical_projects')" >Technical Projects
+        </button>
+        <button type="button" class="side_btn" onclick="toggle('work_experience')" > Work Experience
+        </button>
+        <button type="button" class="side_btn" onclick="toggle('community_involvement')" > Community Involvement
+        </button>
+        <button type="button" class="side_btn" onclick="toggle('education')" > Education
+        </button>
+        <div>
+        <button type="button" class="side_btn" onclick="toggle('extra_curriculars')" >Extra-curriculars
+        </button>
+      </div>
+        <a href = "#social_media">
+          <button type="button" class="side_btn"> Social Media</button>
+        </a>
+</aside>
+
+  <main>
+
+    <section id = "home">
+      <div id = "animation"> <h3> </h3> </div>
+    </section>
+
+    <section id="technical_skills">
+      <h2> Technical Skills (in order from most proficient to least) </h2>
+      <div id="languages">
+        <h3> Languages </h3>
+        <ul>
+          <li> Java (refer to Java Developer) </li>
+          <li> JavaScript (refer to JavaScript Web Developer Coop) </li>
+          <li> TypeScript </li>
+          <li> jQuery (refer to JavaScript Web Developer Coop) </li>
+          <li> HTML (refer to Code for Change) </li>
+          <li> CSS (refer to Code for Change) </li>
+          <li> SQL (refer to CS304 God Team on github) </li>
+          <li> XML & JSON (refer to Java Developer) </li>
+          <li> Y86-Assembly </li>
+          <li> C++*</li>
+          <li> R (using RStudio)</li>
+          <li> C</li>
+          <li> Dr. Racket.</li>
+        </ul>
+      </div>
+
+      <div id="tools">
+        <h3> Tools/Software </h3>
+        <ul>
+          <li> UNIX Command Line </li>
+          <li> Git workflow </li>
+          <li> Chrome debugger </li>
+          <li> Bitbucket and Github </li>
+          <li> YouTrack for Agile Development </li>
+          <li> Unity </li>
+          <li> Postman </li>
+          <li> Genymotion Simulator </li>
+        </ul>
+      </div>
+
+      <div id = "frameworks">
+        <h3> Libraries/Frameworks </h3>
+        <ul>
+          <li> ReactJS </li>
+          <li> AJAX </li>
+          <li> Redux </li>
+          <li> Node.js & Npm </li>
+          <li> jUnit testing and debugging using intelliJ (refer to Java Developer) </li>
+          <li> Oracle SQL </li>
+          <li> JDBC </li>
+          <li> Bootstrap </li>
+        </ul>
+      </div>
+
+      <div id="graphic-design">
+        <h3> Graphic Design </h3>
+        <ul>
+          <li> iMovie </li>
+          <li> Adobe InDesign </li>
+          <li> Blender </li>
+        </ul>
+      </div>
+
+      <div id="additional">
+        <h3> Additional Knowledge and Skills </h3>
+        <ul>
+          <li> Knowledge of coding concepts (e.g.: time-space complexity*) </li>
+          <li> Experience with research using common research platforms including JStor, Google Scholar and Encyclopedia Britannica </li>
+          <li> Knowledge of laboratory work such as titration and colorimetric analysis </li>
+          <li> Writing sponsorship letters (formal communication) </li>
+          <li> Working proficiency in Swahili, Urdu and Hindi (all speaking) </li>
+          <li> Fluent in English and Gujarati (speaking) </li>
+        </ul>
+      </div>
+
+      <div id = "learning"> <p> *still learning </p> </div>
+    </section>
+
+    <section id="technical_projects">
+      <h2> Technical Projects </h2>
+        <div id ="project1">
+          <div class ="left">
+            <h4> Volunteer Front-End Developer </h4>
+          </div>
+          <div class ="right">
+              <p> September - December 2016  </p>
+          </div>
+          <p>Front End Website Making for Deaf Society Campaign, Vancouver, Canada</p>
+            <ul>
+              <li>	Merged and shared code using GitHub (collaborative development). </li>
+              <li>Incorporated CSS and HTML to design website pages and jQuery to implement a hide and show feature. Website supported a campaign aimed at raising awareness of the deaf community in BC. </li>
+            </ul>
+          </p>
+        <a href = "https://github.com/farhankassam2/represent-the-10" target="_blank"> Github Link </a>
+      </div>
+
+    <div id = "project2">
+      <div class = "left">
+        <h4>Java Developer</h4>
+      </div>
+      <div class = "right">
+        <p>  October - November 2016  </p>
+      </div>
+      <p>Vancouver Bus Route Mapping Application (Academic): UBC, Vancouver, Canada </p>
+        <ul>
+          <li>Using Java, implemented an Android application that allows users in Vancouver to find the most convenient bus route, the nearest stops (via the Java Polyline library), and approximate arrival times of buses.  </li>
+          <li>Parsed real-time data from a public Translink API from JSON, XML and TXT formats into application data.</li>
+          <li>Performed unit testing through jUnit.</li>
+          <li>Improved functionality of the user-interface for the application by debugging Java code and testing the application using a Genymotion android simulator. </li>
+        </ul>
+    </div>
+  </section>
+
+      <section id="work_experience">
+        <h2> Work Experience </h2>
+        <div>
+          <div class ="left"> <h4> JavaScript Web Developer Co-op  </h4> </div>
+          <div class = "right"> <p> Sep 2017 - May 2018 </p> </div>
+          <p> <a href="https://www.celayix.com/"> Celayix Software </a>: Vancouver, British Columbia, Canada </p>
+
+          <ul>
+	             <li> Designed portions of the webpage interface through re-usable components using ReactJS and implemented a part of the backend business logic using Java of an employee scheduling web application. These features added ability for clients to allow and schedule bidding for selected shifts and auto-assign a shift after the close of the bidding deadline based on a published criteria about the employees.  </li>
+               <li>Added functionality, via a settings page, for grouping shifts, changing the order in which shifts are processed and changing display options for a shift on a main scheduler screen. </li>
+	             <li>Using Redux, built a call structure to make AJAX calls, populating data from a Progress DBMS onto the application’s web page. </li>
+               <li>Architected and solidified the process of inline validations and warnings for form inputs using Redux. </li>
+               <li> Developed re-usable functions for re-occurring bugs throughout the application. Modified portions of the application such as, the Moment.js library, used to accommodate time-zones, standardize date and time formats, and transfer date and time data from front-end to back-end, and vise-versa. </li>
+               <li> Established a firm understanding of the git workflow and of scrum and agile best practices. </li>
+               <li> Collaborated with a team of engineers to build features, perform code reviews and adopt methods for code reusability and scalability to improve engineering workflows. </li>
+          </ul>
+        </div>
+        <div>
+          <div class ="left"> <h4> Call Centre Representative </h4> </div>
+          <div class = "right"> <p> May - July 2017  </p> </div>
+          <p> <a href="https://support.ubc.ca/call-centre/"> UBC Annual Giving Department of Alumni Engagement </a>: Vancouver, British Columbia, Canada </p>
+
+          <ul>
+               <li> Conducted fund-raising towards my University’s programs, instilling in me an understanding of philanthropy. </li>
+               <li>Over the course of two months, raised a sum of ~$4000 in charitable contributions from donors for initiatives ranging from scholarships and bursaries, research programs and laboratory equipment to graduate fellowships and renovation of buildings and sports facilities.</li>
+               <li>Enhanced the ability to communicate with persuasion effectively and to develop rapport with strangers. </li>
+               <li>Built confidence and patience. </li>
+          </ul>
+        </div>
+        <div>
+          <div class ="left"> <h4> Research Analyst Intern  </h4> </div>
+          <div class = "right"> <p> July - August 2014  </p> </div>
+          <p> <a href="https://www.akdn.org/our-agencies/aga-khan-foundation"> Aga Khan Foundation (AKF) </a> Office- Dar Es Salaam, Tanzania </p>
+
+          <ul>
+	             <li> Aided in collection of demographic and geospatial data about disparities in education and vocational training. </li>
+               <li>Researched means of building the capacity of the youth in Dar Es Salaam in association with the MasterCard Foundation and the USAID scholarship/bursary program.</li>
+	             <li>Edited and compiled two quarterly reports that was reviewed by AKF executives. </li>
+          </ul>
+        </div>
+
+
+
+        </section>
+
+        <section id="community_involvement">
+          <h2> Community Involvement </h2>
+          <div>
+          <div class ="left"> <h4> Marketing & Outreach Representative  </h4> </div>
+          <div class = "right"> <p> Nov 2015 – Mar 2016  </p> </div>
+          <p> <a href="https://www.facebook.com/pg/ubcbloodclub/about/?ref=page_internal"> UBC Blood for Life </a> Club: UBC, Vancouver, Canada </p>
+
+          <ul>
+               <li>	Gained knowledge of the process and benefits involving blood and stem cell donations and received first-level training for cheek swabbing by the Canadian Blood Center. </li>
+               <li>Campaigned the need for blood and stem cell donations and in the process, recruited about 30 students to become part of the Canadian stem cell donor database. </li>
+          </ul>
+
+        </div>
+
+        <div>
+          <div class ="left"> <h4>Student-led Club Leader  </h4> </div>
+          <div class = "right"> <p> August 2013 - May 2015 </p> </div>
+          <p> Seeds for the Development of a Community Club: Mombasa, Kenya</p>
+
+          <ul>
+               <li> Led a team of five in a series of needs-assessments of the produce required by a family in a local village.</li>
+               <li>Organized fund-raising events in school such as food fairs and a yearly cultural festival named ‘Holi’ for two consecutive years; raised funds were allocated to buy seeds given to the family to meet their farming needs for one year (i.e. two rainy seasons).</li>
+          </ul>
+        </div>
+
+        <div>
+          <div class ="left"> <h4> Student Teacher  </h4> </div>
+          <div class = "right"> <p> January - March 2015 </p> </div>
+          <p> Peace Summit Project: Mombasa, Kenya </p>
+
+          <ul>
+               <li> In a group of three, planned out lessons for a two-day workshop and taught in a rigorous environment, about violation of human rights in Libya, Tunisia and Egypt during the Arab Spring as well as about modes of achieving peace at such times of political instability.</li>
+               <li>Assisted in making the official peace summit poster, used for advertisement in school and on social media.</li>
+          </ul>
+        </div>
+
+        </section>
+
+        <section id="education">
+          <h2> Education </h2>
+          <div>
+          <div class ="left"> <h4> Bachelor of Science (BSc), Co-op, Computer Science  </h4> </div>
+          <div class = "right2"> <p> Expected: May 2021 </p> </div>
+          <p> University of British Columbia (UBC): Vancouver, BC, Canada </p>
+
+        </div>
+
+        <div>
+        <div class ="left"> <h4> High School Diploma: International
+  Baccalaureate (IB)  </h4> </div>
+        <div class = "right2"> <p> May 2015 </p> </div>
+        <p> Aga Khan Academy, Mombasa (AKA, M): Mombasa, Kenya </p>
+
+      </div>
+      </section>
+
+      <section id="extra_curriculars">
+        <h2> Extra-Curriculars </h2>
+
+        <ul>
+          <li>Hiking <img id="icons" src="https://static.thenounproject.com/png/45242-200.png"></li>
+          <li> Biking <img id="icons" src="https://img.icons8.com/metro/1600/cycling-road.png"></li>
+          <li>Soccer <img id="icons" src="data:image/png;base64,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"></li>
+          <li> Video games<img id="icons" src="https://cdn0.iconfinder.com/data/icons/mobile-development-icons/256/Game_controller.png"></li>
+          <li> Reading non-fiction<img id="icons" src="https://static.thenounproject.com/png/26067-200.png"></li>
+          <li> African history<img id="icons" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Africa_stub_icon.svg"></li>
+          <li> Religious studies<img id="icons" src="https://cdn0.iconfinder.com/data/icons/school-39/100/Religious_Studies-512.png"></li>
+          <li> Sustainability and environmental conservation<img id="icons" src="https://cdn1.iconfinder.com/data/icons/ecology-fill/512/environmental_conservation-512.png"></li>
+          <li> International travel <img id="icons" src="https://cdn1.iconfinder.com/data/icons/outline-aviation-basic-icon-set/144/Travel_abroad-512.png"></li>
+          <li> Trying and cooking food from different cultures <img id="icons" src="https://media.istockphoto.com/vectors/barbecue-icon-element-of-arab-culture-icon-for-mobile-concept-and-web-vector-id1017956204"></li>
+        </ul>
+      </section>
+
+      </main>
+    </div>
+
+<footer id="social_media" class="center">
+  <a href = "https://www.facebook.com/kassamfarhan" target="_blank"><img id="images" src="assets/social_media/facebook-logo.svg" alt="Facebook Icon"></a>
+  <a href = "https://www.linkedin.com/in/farhan-kassam-03a23b68" target="_blank"> <img id="images" src=" https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-512.png"></a>
+  <a href = "https://twitter.com/farhankassam" target-"_blank"> <img id="images" src="https://www.shchc.ca/sites/default/files/ios_homescreen_icon.png" alt = "Twitter Icon"></a>
+  <a href = "mailto:farhankassam2@gmail.com"><img id="images" src="https://servicedesk.dc-uoit.ca/PublishingImages/email.png" alt = "EmailMe Icon"></a>
+</footer>
+
+
+
+</body>
+</html>

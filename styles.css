@@ -4,6 +4,12 @@
   padding: 2%;
 }
 
+#icons {
+  width: 20px;
+  height: 20px;
+  padding: 2%;
+}
+
 header {
   background-color: green;
   color: white;
@@ -85,7 +91,7 @@ h1, h2 {
 
   .login {
     overflow: hidden;
-    background-color: green;
+    background-color: blue;
     padding: 16px;
     border: none;
     float: right;
@@ -112,12 +118,13 @@ h1, h2 {
   #education, #extra_curriculars {
     display: none;
     position: absolute;
+    display: over;
   }
 
-  #languages, #tools, #additional {
-    width: calc(100%/3);
+  #languages, #tools, #additional, #graphic-design, #frameworks {
+    width: !calc(100%/5);
     float: left;
-    font-size: 12px;
+    font-size: 10px !;
   }
 
   #right1, #right2 {
@@ -151,6 +158,7 @@ h1, h2 {
 
 li {
   font-size: 14px;
+   width: 400px;
 }
 button {
   font-size: 12px;
@@ -254,4 +262,6 @@ input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
   position: inherit;
+}
+herit;
 }
