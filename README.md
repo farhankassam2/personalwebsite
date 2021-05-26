@@ -1,5 +1,8 @@
 # personalwebsite
 
+
+**Update as of May 26, 2021: the website host shut down my account because I think they required paid accounts. So the website is down until further notice!**
+
 The following project comprises of the code that I have worked on over summer in creating my own website using HTML, CSS and JavaScript
 
 This was a great opportunity for me to learn and enhance my knowledge and skills of these three languages
@@ -15,3 +18,5 @@ kassamfarhan.getforge.io
 
 
 Thank you! :)
+
+
