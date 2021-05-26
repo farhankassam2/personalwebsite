@@ -1,7 +1,7 @@
 # personalwebsite
 
 
-**Update as of May 26, 2021: the website host shut down my account because I think they required paid accounts. So the website is down until further notice!**
+**Update as of May 26, 2021: the website host shut down my account because I think they started asking clients to pay for hosting the website after the intial free trial (what I used to host the website before). So the website is down until further notice!**
 
 The following project comprises of the code that I have worked on over summer in creating my own website using HTML, CSS and JavaScript
 
